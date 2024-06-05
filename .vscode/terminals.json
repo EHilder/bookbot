@@ -6,7 +6,6 @@
       "description": "Default terminal",
       "color": "terminal.ansiCyan",
       "focus": true,
-      "command": "wsl -d Ubuntu",
       "env": {}
     },
     {
