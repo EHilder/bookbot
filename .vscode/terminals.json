@@ -6,7 +6,6 @@
       "description": "Default terminal",
       "color": "terminal.ansiCyan",
       "focus": true,
-      "cwd": "home/eric/workspace/github.com/EHilder/bookbot",
       "command": "wsl -d Ubuntu",
       "env": {}
     },
