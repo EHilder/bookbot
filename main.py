@@ -14,7 +14,7 @@ word_count = wordcount(text)
 def character_count(text):
     letter_dictionary = {}
     for letter in text.lower():
-        if letter != " ":
+        if not letter.isspace():
             if letter in letter_dictionary:
                 letter_dictionary[letter] += 1
             else:
